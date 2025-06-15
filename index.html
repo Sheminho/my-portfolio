@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahmoud Shimy | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcUfO+2Yk6Mf24UOgUdtLsr94UOvDdCUpxMFqIXR8IXV3KZRG39z9XffnMZBdGA0Gv5fOCy0PpJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+  <header>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </header>
+  <div class="container">
+    <img src="images\profile.png" alt="Profile" class="profile-img" />
+    <h1 class="name">MAHMOUD SHIMY</h1>
+    <p class="subtitle">Data Scientist | ML Engineer</p>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/mahmoudshimy" target="blank"><img src="images\icons8-linkedin.svg" alt="LinkedIn"></a>
+      <a href="https://www.facebook.com/ma7moudshimy" target="blank"><img src="images\icons8-facebook-logo.svg" alt="facebook"></a>
+      <a href="https://github.com/Sheminho" target="blank"><img src="images\icons8-github-logo.svg" alt="github"></a>
+      <a href="mailto:mahmoud.ah.shimy@gmail.com" target="blank"><img src="images/icons8-gmail.svg" alt="gmail"></a>
+      <a href="https://wa.me/+201062968882" target="blank"><img src="images\icons8-phone-50.png" alt="phone"></a>
+    </div>
+    <a href="https://drive.google.com/open?id=1pNIQaV8PrsYLnNqgpXBS8s6vfoNyx3Ut&usp=drive_fs" target="blank"><button class="btn">VIEW RESUME</button></a>
+    <hr>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Computer Science and Statistics recent graduate with a strong passion for data-driven decision-making. Certified by <b>Google</b>, <b>IBM</b>, and <b>NTI</b> in data science, with hands-on experience in analytics, visualization, and machine learning.</p>
+      <p>Proficient in <b>Python, SQL, Excel, Power BI, Tableau</b>, and <b>Google Data Studio</b>, with a track record of delivering insights through real-world projects. Eager to apply statistical and ML techniques to solve commercial challenges and drive business impact.</p>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Python</span><span>SQL</span><span>Tableau</span><span>Power BI</span><span>Excel</span>
+        <span>Problem Solving</span><span>Business Analytics</span><span>Data Visualization</span><span>Report Development</span><span>Strategic Thinking</span>
+      </div>
+    </section>
+
+    <hr>
+    <section class="projects" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+        <a href="https://drive.google.com/file/d/1-zVmfCjIHrF8p5WQEIbMdEH_Im3xZZh7/view?usp=drive_link" target="blank"><img src="images\sentiment.jpg"  class="project-image" alt="NLP Project Screenshot"></a>
+        <div class="project-content">
+          <h3>
+            <bold>PYTHON | NLP</bold>
+            <br> 
+            <span>Arabic Sentiment Analyzer</span>
+          </h3>
+          <p>Building a model that classifies Arabic text by sentiment using machine learning techniques.</p>
+          <a href="https://github.com/Sheminho/Arabic_Sentement_Analyzer" class="more-btn" target="blank">More</a>
+        </div>
+      </div>
+      <br>
+      <div class="project-card-rev">
+        <div class="project-content">
+          <h3>
+            <bold>PYTHON | POWER BI</bold>
+            <br> 
+            <span>Egyptian Premier League Analysis</span>
+          </h3>
+          <p>Analyze the performance of teams in the Egyptian Premier League across different seasons.</p>
+          <a href="https://github.com/Sheminho/NTI_Creativa/tree/main/Egyptian%20Premier%20League" class="more-btn" target="blank">More</a>
+        </div>
+        <a href="https://github.com/Sheminho/NTI_Creativa/tree/main/Egyptian%20Premier%20League" target="blank"><img src="images\dashbaord-1.png"  class="project-image" alt="NLP Project Screenshot"></a>
+      </div>
+      <br>
+    <div class="project-card">
+        <a href="https://github.com/Sheminho/NTI_Creativa/tree/main/Excel%20Project/Car%20Market%20analysis" target="blank"><img src="images\Dashboard.png"  class="project-image" alt="NLP Project Screenshot"></a>
+        <div class="project-content">
+          <h3>
+            <bold>EXCEL | POWER QUERY</bold>
+            <br> 
+            <span>Car Market Analysis</span>
+          </h3>
+          <p>A comprehensive analysis of the used car market in Egypt aiming to assist various stakeholders by providing valuable insights.</p>
+          <a href="https://github.com/Sheminho/NTI_Creativa/tree/main/Excel%20Project/Car%20Market%20analysis" class="more-btn" target="blank">More</a>
+        </div>
+      </div>
+      <br>
+      <div class="project-card-rev">
+        <div class="project-content">
+          <h3>
+            <bold>PYTHON | POWER BI | TABLEAU</bold>
+            <br> 
+            <span>Depression Factors Analysis</span>
+          </h3>
+          <p>Exploring depression-related data through exploratory data analysis (EDA) to uncover trends, patterns, and insights.</p>
+          <a href="https://github.com/Sheminho/Data_Analysis_Projects/tree/main/Depression%20EDA" class="more-btn" target="blank">More</a>
+        </div>
+        <a href="https://github.com/Sheminho/Data_Analysis_Projects/tree/main/Depression%20EDA" target="blank"><img src="images\Dasboard bi.jpg"  class="project-image" alt="NLP Project Screenshot"></a>
+      </div>
+    </section>
+    <hr>
+    <section class="certifications" id="certifications">
+      <h2>Professional Certifications</h2>
+      <div class="cert-list">
+        <div class="cert-card">
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/9Y365G4GZVTY" target="blank"><img src="images\GCC_badge_DA_1000x1000.png" alt="Certificate" class="cert-image"></a>
+          <div class="cert-info">
+            <h3 class="cert-title">Google Professional Data Analytics</h3>
+            <p class="cert-date">Issued June 24, 2023</p>
+          </div>
+        </div>
+    <br>
+        <div class="cert-card">
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/ZMKEFVQU4BZD" target="blank"><img src="images\Professional_Certificate_-_Data_Analyst.png" alt="Certificate" class="cert-image"></a>
+          <div class="cert-info">
+            <h3 class="cert-title">IBM Professional Data Analyst</h3>
+            <p class="cert-date">Issued February 16, 2024</p>
+          </div>
+        </div>
+        <br>
+            <div class="cert-card">
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/L37G3K5S3B7K" target="blank"><img src="images\image.png" alt="Certificate" class="cert-image"></a>
+          <div class="cert-info">
+            <h3 class="cert-title">Google Professional Data Analytics</h3>
+            <p class="cert-date">Issued June 24, 2023</p>
+          </div>
+        </div>
+        <br>
+        <div class="cert-card">
+          <a href="https://drive.google.com/open?id=1hU3o4WTsZlgehMIBphBulf2wQ-2mbf-f&usp=drive_fs" target="blank"><img src="images\certificate_page-0001.jpg" alt="Certificate" class="cert-image"></a>
+          <div class="cert-info">
+            <h3 class="cert-title">Professional Data Analysis Program</h3>
+            <p class="cert-date">Issued December 08, 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="experience" id="experience">
+      <h2>Professional Experience</h2>
+      <div class="experience-item">
+        <div class="experience-info">
+          <h3 class="job-title">Business Analytics Intern</h3>
+          <p class="company">The Sparks Foundation</p>
+          <p class="duration">May 2023 - June 2023</p>
+        </div>
+        <a href="https://drive.google.com/open?id=1BLpg-2QbyQhZag1H56Ru_iEDta4I8D3f&usp=drive_fs" target="blank" class="certificate-image-link">
+          <img src="images\sparks_cert.png" alt="Certificate" class="certificate-image">
+        </a>
+      </div>
+      <br>
+      <div class="experience-item">
+        <div class="experience-info">
+          <h3 class="job-title">Data Science Intern</h3>
+          <p class="company">Coding Raja Techniques</p>
+          <p class="duration">July 15, 2023 - August 15, 2023</p>
+        </div>
+        <a href="https://drive.google.com/open?id=1twvu1gJoQVYqK5xUqo8RMHUYIohy4DaU&usp=drive_fs" target="blank" class="certificate-image-link">
+          <img src="images\raja_cert.png" alt="Certificate" class="certificate-image">
+        </a>
+      </div>
+      <div class="experience-item">
+        <div class="experience-info">
+          <h3 class="job-title">Data Specialist intern</h3>
+          <p class="company">Al Azhar Institution</p>
+          <p class="duration">September 09, 2023 - September 28, 2023</p>
+        </div>
+        <a href="https://drive.google.com/open?id=1YDsf0V13l3QTWzF3ZMEKJDsGvd3dRLc3&usp=drive_fs" target="blank" class="certificate-image-link">
+          <img src="images\Azhar.jpg" alt="Certificate" class="certificate-image">
+        </a>
+      </div>
+      <br>
+      <div class="experience-item">
+        <div class="experience-info">
+          <h3 class="job-title">Data Analysis intern</h3>
+          <p class="company">Creativa - NTI</p>
+          <p class="duration">October 05, 2024 - December 08, 2024</p>
+        </div>
+        <a href="https://drive.google.com/open?id=1hU3o4WTsZlgehMIBphBulf2wQ-2mbf-f&usp=drive_fs" target="blank" class="certificate-image-link">
+          <img src="images\certificate_page-0001.jpg" alt="Certificate" class="certificate-image">
+        </a>
+      </div>
+    </section>
+    <hr>
+    <footer>
+      © 2025 | MahmoudShimy. All rights reserved.
+    </footer>
+  </div>
+  <button id="scrollTopBtn" title="Go to top"><img src="images/up arrow.png"></button>
+  <script>
+  // Show/hide button on scroll
+  window.onscroll = function() {
+    const btn = document.getElementById("scrollTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Scroll to top when clicked
+  document.getElementById("scrollTopBtn").onclick = function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('active');
+    }
+
+
+     const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // Animate once
+      }
+    });
+  }, {
+    threshold: 0.1 // Trigger when 10% of the section is in view
+  });
+  document.querySelectorAll('.skills').forEach(section => {
+    observer.observe(section);
+  });
+  document.querySelectorAll('.experience').forEach(section => {
+    observer.observe(section);
+  });
+  document.querySelectorAll('.certifications').forEach(section => {
+    observer.observe(section);
+  });
+  document.querySelectorAll('.projects').forEach(section => {
+    observer.observe(section);
+  });
+  document.querySelectorAll('.about').forEach(section => {
+    observer.observe(section);
+  });
+  </script>
+  </body>
+  </html>
