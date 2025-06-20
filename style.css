@@ -459,7 +459,11 @@ transform: scale(1.05);
   .more-btn:hover {
   transform: scale(1.05);
   }
-    .cert-card {
+  .certifications h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  }
+  .cert-card {
     width: 90%;
   }
    .experience-item {
