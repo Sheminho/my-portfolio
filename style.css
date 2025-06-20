@@ -407,7 +407,7 @@ transform: scale(1.05);
 @media (max-width: 768px) {
   .name {
     letter-spacing: 3px;
-    font-size: 32px;
+    font-size: 30px;
   }
   header {
     padding: 10px 15px;
