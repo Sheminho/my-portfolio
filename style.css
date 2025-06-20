@@ -406,7 +406,7 @@ transform: scale(1.05);
 /* Mobile Styling */
 @media (max-width: 768px) {
   .name {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   }
   header {
     padding: 10px 15px;
